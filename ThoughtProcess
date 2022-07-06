@@ -1,0 +1,45 @@
+Here is a quick look into my thought process while going through this project. 
+
+First things first the data is sourced from https://www.mavenanalytics.io/data-playground
+What was asked of me was to improve retention by identifying high value customers and churn risks. 
+
+First I determined the business questions that need to be asked:
+1.Who are the High Value Customers?
+2.Who are the churn risks?
+3.Reasons for poor retention, so that we may improve.
+
+I considered who I would be presenting the report to (the CMO) to make sure I keep in mind what they might want to see from the report.
+I cleaned the data in excel, which was very simple considering this data was created specifically for this project, so there were very few changes to be made.
+Although this was a smaller dataset and I could have done my analysis with mainly Excel and Tableau, I chose SQL as my main tool.
+
+I have my SQL Query for this project in another attached file. 
+I started my query asking simple questions to get general ideas for insights such as, is there a difference in gender and what are the most common ages?
+Although neither of those ended up being of high importance to this report. 
+When jumping into the question of churn risks, I wanted to figure out what customers churned (left the company) and what they had in common.
+The most valuable data was the "Churn Reason", which laid out the main reason that customers chose to leave.
+I then looked into different aspects of the data to view possible correlations bewteen customers who have churned and offers, internet type, tenure, contracts, and so on. 
+Making sure to then compare to customers that have stayed. 
+This data also included customers that had just joined in this quarter. 
+I did take a quick look at what that data had to show for joiners but that data had few insights considering the little amount of time they have been with the company.
+To figure out who the High Value Customers are I took a look at the customers that brought in above average revenue. 
+I compared differences between High Value Customers and churners to determine what can be done to retain more customers.
+The most common reason for leaving was the competitor having better offers and devices. 
+
+Once I was finsihed with my analysis in SQL, I started making vizualizations in both Excel, with pivot tables and charts, and Tableau.
+I really enjoy seeing data tell a story through visualizations.
+Using these tools to visualize the data helps to clearly understand it and be able to explain it to the CMO.
+Plus you never know what answers might pop up to questions you did not even think to ask!
+The hard part for me when turning data insights into a one page report is keeping it clean, concise, and on point. 
+When there are so many interesting things I have gathered from the data I have to take a step back and remember the business questions and who I am presenting to. 
+I then determined what data specifically answered my questions and compiled that into a report.
+
+A few things I would do differently in the future:
+1. Change the names of the columns in the dataset to not include spaces to make using SQL easier and cleaner. 
+2. Use more complex graphs that can show complex insights.
+3. Create an interactive dashboard. 
+
+I really enjoyed this project and felt it gave me real world experience and a chance to show a little of my skill. 
+
+
+
+
